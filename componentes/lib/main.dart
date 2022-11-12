@@ -1,3 +1,4 @@
+import 'package:componentes/pages/animacoes_implicitas.dart';
 import 'package:componentes/pages/facebook_login.dart';
 import 'package:componentes/pages/login_page.dart';
 import 'package:componentes/pages/tinder.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FacebookLogin(),
+      home: AnimacoesImplicitasV1(),
     );
   }
 }
